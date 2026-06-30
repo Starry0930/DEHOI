@@ -1,7 +1,7 @@
 # DEHOI: A Depth-Enhanced Vision-Language Model for Egocentric Hand-Object Interaction Understanding
 
 <p align="center">
-  <img src="assets/teaser.png" width="70%">
+  <img src="assets/teaser.png" width="60%">
  </p>
  
  <p align="center">
