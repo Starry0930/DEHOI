@@ -2,19 +2,20 @@
 
 <p align="center">
   <img src="assets/teaser.png" width="80%">
-</p>
+ </p>
+ 
+ <p align="center">
+   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-Paper-red"></a>
+   <a href="https://2026.ieeeicme.org/"><img src="https://img.shields.io/badge/ICME%202026-Spotlight-blue"></a>
+   <a href="#"><img src="https://img.shields.io/badge/Code-Coming%20Soon-orange"></a>
+ </p>
+ 
 
-<p align="center">
-  <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-Paper-red"></a>
-  <a href="https://2026.ieeeicme.org/"><img src="https://img.shields.io/badge/ICME-2026-blue"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Code-Coming%20Soon-orange"></a>
-</p>
-
-This is the official repository for **"DEHOI: A Depth-Enhanced Vision-Language Model for Egocentric Hand-Object Interaction Understanding"**, accepted at **IEEE ICME 2025**.
+This is the official repository for **"DEHOI: A Depth-Enhanced Vision-Language Model for Egocentric Hand-Object Interaction Understanding"**, accepted as a **Spotlight** at **IEEE ICME 2026**.
 
 ## 📋 Abstract
 
-Egocentric hand-object interaction (HOI) understanding is a fundamental problem for embodied intelligence. Recent Vision Language Models (VLMs) have achieved remarkable progress in multimodal reasoning, but their performance remains limited in egocentric settings due to severe motion blur, frequent occlusions, small manipulated objects, and cluttered backgrounds. We propose **DEHOI**, a depth-enhanced VLM that incorporates monocular depth as an explicit geometric cue to disambiguate foreground interactions from background clutter. We design a **depth-guided local-to-global fusion module** consisting of Agent Attention for selective geometric guidance and FiLM-based global modulation, enabling effective depth integration while maintaining compatibility with pretrained VLMs. Extensive experiments on egocentric HOI benchmarks show that DEHOI consistently improves object recognition, localization, and interaction reasoning over strong RGB-based baselines.
+Egocentric hand-object interaction (HOI) understanding is a fundamental problem for embodied intelligence, as it directly reflects how humans perceive and manipulate objects in the physical world. Recent Vision Language Models (VLMs) have achieved remarkable progress in multimodal reasoning and open-vocabulary understanding. However, their performance remains limited in egocentric settings due to the unique challenges of first-person data, including severe motion blur, frequent occlusions by hands, small manipulated objects, and cluttered backgrounds. As a result, RGB-only models often rely on language priors rather than reliable visual evidence for interaction reasoning. In this work, we propose DEHOI, a depth-enhanced Vision Language Model for egocentric HOI understanding. By incorporating depth information as an explicit geometric cue, DEHOI provides complementary spatial information that helps disambiguate foreground interactions from background clutter. We design an effective depth integration strategy that selectively leverages depth to guide visual reasoning while maintaining compatibility with pretrained VLMs. Extensive experiments on egocentric HOI benchmarks show that DEHOI consistently improves object recognition, localization, and interaction reasoning over strong RGB-based baselines, especially for interaction-centric tasks.
 
 ## 🏗️ Architecture
 
