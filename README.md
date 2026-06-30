@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-Paper-red"></a>
-  <a href="#"><img src="https://img.shields.io/badge/ICME-2026-blue"></a>
+  <a href="#"><img src="https://img.shields.io/badge/ICME-2025-blue"></a>
   <a href="#"><img src="https://img.shields.io/badge/Code-Coming%20Soon-orange"></a>
 </p>
 
