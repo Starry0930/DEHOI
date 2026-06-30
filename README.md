@@ -50,7 +50,7 @@ Results on HOI-QA benchmark:
 
 ## 🙏 Acknowledgements
 
-This work is built upon [Qwen3-VL](https://github.com/QwenLM/Qwen2.5-VL), [Depth Anything V3](https://github.com/DepthAnything/Depth-Anything-V3), and [HOI-Ref](https://github.com/Sid2697/HOI-Ref). We thank the authors for their excellent work.
+This work is built upon [Qwen3-VL](https://github.com/QwenLM/Qwen2.5-VL), [Depth Anything V3](https://github.com/bytedance-seed/depth-anything-3), [Agent-Attention](https://github.com/LeapLabTHU/Agent-Attention) and [HOI-Ref](https://github.com/Sid2697/HOI-Ref). We thank the authors for their excellent work.
 
 ## 📬 Contact
 
